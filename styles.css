@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./Assets/8541.jpg);
+  background-repeat: no-repeat;
+  background-position-y: right;
+  background-size:4400px;
+  background-position-y:30px;
+  background-position-x: -50px;
+
+  
+
+}
+.container {
+  width: 100%;
+  background-image: url(./Assets/Velvet_Reign_Queen_Luscious_Cosmetics_09b9d321-ac80-44c2-a49f-ed76c1e63f9b.webp);
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: 900px;
+  background-position-y:150px ;
+  padding: 20px 10%;
+  transition: background-image 0.3s;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 150px;
+  cursor: pointer;
+  background-color: rgb(240, 135, 151);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 14px;
+  padding-top: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  
+  
+}
+
+nav .btn {
+  text-decoration: none;
+  color: #fff;
+  background: black;
+  padding: 15px 32px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.content {
+  margin-top: 10%;
+}
+.content h2 {
+  color: rgb(211, 40, 40);
+  font-size: 2.5rem;
+  font-family: a;
+
+}
+.content h1 {
+  color: #222;
+  font-size: 30px;
+  margin-top: 1px;
+}
+.content p {
+  max-width: 450px;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #0c0c0c;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.color-select div {
+  background: #333;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid #7d7e80;
+}
+.color-select {
+  display: flex;
+  margin-top: 30px;
+}
+.color-select #midnight {
+  background: #bf2b34;
+}
+.color-select #starlight {
+  background: #924d50;
+}
+.color-select #spacegray {
+  background: #f05977;
+}
+.color-select #silver {
+  background: #cc8687;
+  
+}
+
+@media (max-width:425px) {
+  nav .btn{
+    font-size:12px;
+    padding: 12px 12px;
+  }
+  nav .logo {
+  width: 120px;
+  
+}
+
+.container {
+  height: 160vh;
+  background-size: 300px;
+  background-position-y: 590px;
+  background-position-x: 10px ;
+  
+}
+body{
+  background-size:4400px;
+  background-position-y:-190px;
+  background-position-x: 20px;
+
+  
+
+}
+
+   
+  
+}
+
+@media (width:768px){
+  .container {
+  height: 120vh;
+  background-size: 300px;
+  background-position-y: 550px;
+  background-position-x: 10px ;
+  
+}
+body{
+  background-size:4000px;
+  background-position-y:20px;
+  background-position-x: 150px;
+
+  
+
+}
+
+}
